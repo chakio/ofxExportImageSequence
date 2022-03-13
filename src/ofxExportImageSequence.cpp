@@ -2,7 +2,7 @@
 
 #include "tiff.h"
 #include "tiffio.h"
-
+#include <fcntl.h>
 struct TiffExportOp
 {
 	enum Compression {
